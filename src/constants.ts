@@ -37,16 +37,16 @@ export const ORDER_OPTIONS: ({direction: OrderDirection; field: string} | null)[
   null,
   //Filename is useless for us if title is set, 
   //should be unneeded unless title is unset which should not be allowed
-  {
-    direction: 'asc',
-    field: 'originalFilename'
-  },
-  {
-    direction: 'desc',
-    field: 'originalFilename'
-  },
-  // Divider
-  null,
+//   {
+//     direction: 'asc',
+//     field: 'originalFilename'
+//   },
+//   {
+//     direction: 'desc',
+//     field: 'originalFilename'
+//   },
+//   // Divider
+//   null,
   {
     direction: 'desc',
     field: 'size'
