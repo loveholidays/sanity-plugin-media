@@ -4,6 +4,17 @@ import {divider, inputs} from './config/searchFacets'
 // Sort order dropdown options
 // null values are represented as menu dividers
 export const ORDER_OPTIONS: ({direction: OrderDirection; field: string} | null)[] = [
+    
+    {
+        direction: 'asc' as OrderDirection,
+        field: 'title'
+    },
+{
+        direction: 'desc' as OrderDirection,
+        field: 'title'
+    },
+  // Divider
+  null,
   {
     direction: 'desc',
     field: '_createdAt'
@@ -24,16 +35,17 @@ export const ORDER_OPTIONS: ({direction: OrderDirection; field: string} | null)[
   },
   // Divider
   null,
-  {
-    direction: 'asc',
-    field: 'originalFilename'
-  },
-  {
-    direction: 'desc',
-    field: 'originalFilename'
-  },
-  // Divider
-  null,
+  //Filename is useless for us
+//   {
+//     direction: 'asc',
+//     field: 'originalFilename'
+//   },
+//   {
+//     direction: 'desc',
+//     field: 'originalFilename'
+//   },
+//   // Divider
+//   null,
   {
     direction: 'desc',
     field: 'size'

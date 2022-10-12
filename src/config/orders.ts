@@ -1,6 +1,10 @@
 import {OrderDirection} from '../types'
 
 const ORDER_DICTIONARY: Record<string, {asc: string; desc: string}> = {
+    title: { 
+    desc: 'Title: Z to A',
+    asc: 'Title: A to Z',
+    },
   _createdAt: {
     asc: 'Last created: Oldest first',
     desc: 'Last created: Newest first'
