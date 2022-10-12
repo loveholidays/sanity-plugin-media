@@ -240,7 +240,7 @@ const TableRowAsset = (props: Props) => {
         </Flex>
       </Box>
 
-      {/* Title (we dont need filename) */}
+      {/* Title (we dont need filename unless unset) */}
       <Box
         marginLeft={mediaIndex < 3 ? 3 : 0}
         style={{
@@ -250,7 +250,7 @@ const TableRowAsset = (props: Props) => {
         }}
       >
         <Text muted size={1} style={{lineHeight: '2em'}} textOverflow="ellipsis">
-          {asset.title}
+          {asset.title ?? asset.originalFilename}
         </Text>
       </Box>
 
