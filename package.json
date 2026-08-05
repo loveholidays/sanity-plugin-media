@@ -68,7 +68,7 @@
     "@sanity/client": "^3.3.0",
     "@sanity/color": "^2.1.8",
     "@sanity/icons": "^1.2.5",
-    "@sanity/semantic-release-preset": "^2.0.1",
+    "@sanity/semantic-release-preset": "^5.0.0",
     "@sanity/types": "^2.34.0",
     "@types/is-hotkey": "^0.1.7",
     "@types/pluralize": "^0.0.29",
